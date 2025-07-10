@@ -1,3 +1,19 @@
+🧩Understanding the Task and Exploring the Data
+At the beginning of the project, the classification task was not strictly defined as a supervised learning problem. Instead, we were provided with:
+
+-A CSV file (ml_insurance_challenge.csv) containing company-level information such as description, tags, sector, category, and niche
+-A static insurance taxonomy (Excel file) representing potential target labels
+
+We inferred that the goal was to assign one or more relevant taxonomy labels to each company based on semantic similarity between their profile and label descriptions.
+
+To better understand the data, we:
+
+-Inspected company fields for completeness and relevance
+-Identified missing or noisy values in tags and text descriptions
+-Chose to create a new column full_profile combining all informative fields into one coherent input for embedding models
+
+This step was crucial to ensure the model had sufficient context to make accurate predictions.
+
 🔧 Project Stages
 
 1. Data Preprocessing
