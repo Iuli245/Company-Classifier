@@ -101,3 +101,5 @@ Key columns:
 -Additional data sources: Enhance full_profile with website content, extended descriptions, or relevant financial data.
 
 -Quantitative evaluation: Manually label a subset of the data to calculate precision, recall, and F1 scores.
+
+-A potential future improvement could involve defining and assigning general insurance tags based on identified keywords (e.g., assigning employee insurance when terms like "employee", "family business", or "HR" are detected, or equipment insurance for contexts involving "manufacturing", "machinery", etc.). This could serve as a lightweight preprocessing or enrichment step to support more accurate categorization.
